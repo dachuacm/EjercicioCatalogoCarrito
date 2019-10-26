@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829829545880",
+    "firebase_url": "https://ejerciciocatalogocarrito-6c2d0.firebaseio.com",
+    "project_id": "ejerciciocatalogocarrito-6c2d0",
+    "storage_bucket": "ejerciciocatalogocarrito-6c2d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829829545880:android:af7c01efd6f4b32b4575ed",
+        "android_client_info": {
+          "package_name": "com.example.ejerciciocatalogocarrito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829829545880-n151fl02mkpb6m8a1e771ue87b7oirsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ejerciciocatalogocarrito",
+            "certificate_hash": "60ce71637eee623a505516d102ebc310823aa6bc"
+          }
+        },
+        {
+          "client_id": "829829545880-kjbg87cjmaemrtni6jl2nsppckiacjoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdZKSWSB24BRha-5g-xQlGdx3sxZrzYMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829829545880-kjbg87cjmaemrtni6jl2nsppckiacjoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
