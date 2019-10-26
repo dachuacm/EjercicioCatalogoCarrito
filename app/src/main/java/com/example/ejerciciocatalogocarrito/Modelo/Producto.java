@@ -22,11 +22,15 @@ public class Producto implements Serializable {
     private String sucursal;
     @NonNull
     private int stock;
+    @NonNull
+    private String imagenPrincipal;
+    @NonNull
+    private String iamgenDetalle;
 
     public Producto() {
     }
 
-    public Producto(int id, @NonNull String nombre, @NonNull String descripcion, double precio, @NonNull String marca, @NonNull String proveedor, @NonNull String sucursal, int stock) {
+    public Producto(int id, @NonNull String nombre, @NonNull String descripcion, double precio, @NonNull String marca, @NonNull String proveedor, @NonNull String sucursal, int stock, @NonNull String imagenPrincipal, @NonNull String iamgenDetalle) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
@@ -35,6 +39,8 @@ public class Producto implements Serializable {
         this.proveedor = proveedor;
         this.sucursal = sucursal;
         this.stock = stock;
+        this.imagenPrincipal = imagenPrincipal;
+        this.iamgenDetalle = iamgenDetalle;
     }
 
     public int getId() {
@@ -100,6 +106,24 @@ public class Producto implements Serializable {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    @NonNull
+    public String getImagenPrincipal() {
+        return imagenPrincipal;
+    }
+
+    public void setImagenPrincipal(@NonNull String imagenPrincipal) {
+        this.imagenPrincipal = imagenPrincipal;
+    }
+
+    @NonNull
+    public String getIamgenDetalle() {
+        return iamgenDetalle;
+    }
+
+    public void setIamgenDetalle(@NonNull String iamgenDetalle) {
+        this.iamgenDetalle = iamgenDetalle;
     }
 
     @Override
