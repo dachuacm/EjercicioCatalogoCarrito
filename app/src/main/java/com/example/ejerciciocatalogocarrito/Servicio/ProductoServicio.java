@@ -1,6 +1,7 @@
 package com.example.ejerciciocatalogocarrito.Servicio;
 
 
+import com.example.ejerciciocatalogocarrito.Modelo.Producto;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -12,7 +13,9 @@ public class ProductoServicio {
         DatabaseReference myRef = database.getReference("message");
     }
 
-    public void  agregarProducto(){
+    public void  agregarProducto(Producto producto){
+
+
 
     }
 

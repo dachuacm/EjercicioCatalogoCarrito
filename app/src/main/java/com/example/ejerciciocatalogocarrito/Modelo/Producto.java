@@ -27,6 +27,8 @@ public class Producto implements Serializable {
     @NonNull
     private String iamgenDetalle;
 
+
+
     public Producto() {
     }
 
