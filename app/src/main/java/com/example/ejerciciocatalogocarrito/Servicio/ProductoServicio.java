@@ -1,5 +1,7 @@
 package com.example.ejerciciocatalogocarrito.Servicio;
 
+import com.example.ejerciciocatalogocarrito.Modelo.Producto;
+
 public class ProductoServicio {
 
     public ProductoServicio(){
@@ -8,7 +10,9 @@ public class ProductoServicio {
 
 
 
-    public void  agregarProducto(){
+    public void  agregarProducto(Producto producto){
+
+
 
     }
 
