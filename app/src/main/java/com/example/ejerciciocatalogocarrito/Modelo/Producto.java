@@ -23,6 +23,8 @@ public class Producto implements Serializable {
     @NonNull
     private int stock;
 
+
+
     public Producto() {
     }
 
