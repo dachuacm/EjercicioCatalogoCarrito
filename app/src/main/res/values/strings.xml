@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EjercicioCatalogoCarrito</string>
+
+    <string name="mail_user">carritoxml2@gmail.com</string>
+    <string name="mail_pass">carritoxmldonas</string>
 </resources>
