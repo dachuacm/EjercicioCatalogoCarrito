@@ -3,4 +3,30 @@
 
     <string name="mail_user">carritoxml2@gmail.com</string>
     <string name="mail_pass">carritoxmldonas</string>
+
+
+    <string name="txt_titulo">CARRITO DE COMPRAS</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_registro">Registrarse</string>
+
+    <string name="txt_btn_registrar">Registrar</string>
+    <string name="txt_registro_usuario">Registro usuario</string>
+    <string name="txt_estado">Estado</string>
+    <string name="txt_alcaldia_municipio">Alcaldia/Municipio</string>
+    <string name="txt_c_p">C.P.</string>
+    <string name="txt_numero">Número</string>
+    <string name="txt_domicilio">Domicilio</string>
+    <string name="txt_apellidos">Apellidos</string>
+    <string name="txt_nombres">Nombre(s)</string>
+    <string name="txt_titulo2">Crear nueva cuenta</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_aviso">Aviso Privacidad</string>
+    <string name="txt_google">Cuenta Google</string>
+    <string name="txt_btn_crear_cuenta">Crear Cuenta</string>
+    <string name="txt_o">O</string>
+    <string name="txt_confirmar_pass">Confirmar contraseña</string>
+    <string name="correo">Correo</string>
+    <string name="ingresar">Ingresar</string>
 </resources>

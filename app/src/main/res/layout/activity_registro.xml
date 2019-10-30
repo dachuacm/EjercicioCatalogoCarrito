@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+    <TextView
+        android:id="@+id/txtTitulo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/txt_registro_usuario"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cajaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_nombres"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaApellidos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo3" />
+
+    <EditText
+        android:id="@+id/cajaApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_apellidos"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaDomicilio"
+        app:layout_constraintStart_toStartOf="@+id/cajaNombre"
+        app:layout_constraintTop_toBottomOf="@+id/cajaNombre" />
+
+    <EditText
+        android:id="@+id/cajaDomicilio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_domicilio"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaNumero"
+        app:layout_constraintStart_toStartOf="@+id/cajaApellidos"
+        app:layout_constraintTop_toBottomOf="@+id/cajaApellidos" />
+
+    <EditText
+        android:id="@+id/cajaNumero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_numero"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaMunicipio"
+        app:layout_constraintEnd_toStartOf="@+id/cajaCP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaDomicilio" />
+
+    <EditText
+        android:id="@+id/cajaCP"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="209dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_c_p"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cajaNumero"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cajaMunicipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_alcaldia_municipio"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cajaEstado"
+        app:layout_constraintStart_toStartOf="@+id/cajaNumero"
+        app:layout_constraintTop_toBottomOf="@+id/cajaNumero" />
+
+    <EditText
+        android:id="@+id/cajaEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_estado"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrar"
+        app:layout_constraintStart_toStartOf="@+id/cajaMunicipio"
+        app:layout_constraintTop_toBottomOf="@+id/cajaMunicipio" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="43dp"
+        android:text="@string/txt_btn_registrar"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cajaEstado"
+        app:layout_constraintTop_toBottomOf="@+id/cajaCP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

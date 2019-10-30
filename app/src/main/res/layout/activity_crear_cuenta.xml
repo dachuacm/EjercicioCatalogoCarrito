@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuenta">
+
+    <EditText
+        android:id="@+id/cajaEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_email"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cajaPass4"
+        app:layout_constraintStart_toStartOf="@+id/cajaPass4"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo4" />
+
+    <EditText
+        android:id="@+id/cajaPass4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_pass"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cajaPass5"
+        app:layout_constraintStart_toStartOf="@+id/cajaPass5"
+        app:layout_constraintTop_toBottomOf="@+id/cajaEmail2" />
+
+    <CheckBox
+        android:id="@+id/chkAviso2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_aviso"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/cajaPass5"
+        app:layout_constraintTop_toBottomOf="@+id/cajaPass5" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="9dp"
+        android:text="@string/txt_google"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtO2"
+        app:layout_constraintTop_toBottomOf="@+id/chkAviso2" />
+
+    <Button
+        android:id="@+id/btnCreaCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="1dp"
+        android:text="@string/txt_btn_crear_cuenta"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtO2"
+        app:layout_constraintEnd_toStartOf="@+id/txtO2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_o"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoogle"
+        app:layout_constraintStart_toEndOf="@+id/btnCreaCuenta" />
+
+    <EditText
+        android:id="@+id/cajaPass5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_confirmar_pass"
+        android:textColor="#969696"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cajaPass4" />
+
+    <TextView
+        android:id="@+id/txtTitulo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/txt_titulo2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIniciaSecion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="95dp"
+        android:text="iniciar sesion"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

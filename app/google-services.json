@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "292187243188",
+    "firebase_url": "https://tensile-analyst-201807.firebaseio.com",
+    "project_id": "tensile-analyst-201807",
+    "storage_bucket": "tensile-analyst-201807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292187243188:android:1ed35d03f5435547718de1",
+        "android_client_info": {
+          "package_name": "com.example.ejerciciocatalogocarrito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wyNce2dUpwtWaMENdWxcT3FHlduW9lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
